@@ -34,10 +34,15 @@ for i in range(len(state)): #for each state page
         for j in loc_el:
             cityName = j.find("span", attrs="Directory-listLinkText")
             camelCase = state[i].title()
-            if (", " + camelCase) in cityName.text:
-                city.append(cityName.text.replace((", " + camelCase), (", " + camelCase.upper())))
+            if cityName.text == "Albama":
+                city.append("Geneva, AL")
+            elif cityName.text == "Pennsylvania":
+                city.append("Philadelphia, PA")
             else:
-                city.append(cityName.text + ", " + state[i].upper())
+                if (", " + camelCase) in cityName.text:
+                    city.append(cityName.text.replace((", " + camelCase), (", " + camelCase.upper())))
+                else:
+                    city.append(cityName.text + ", " + state[i].upper())
         for a in soup.find_all('a', attrs="Directory-listLink", href=True):
             num.append(re.sub("[()]", "", a['data-count']))
 
