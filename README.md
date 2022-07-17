@@ -1,5 +1,5 @@
 # ABOUT
-This is the result of my first web scraping project, a simple tool that scrapes  number of Popeyes locations per city in the United States. The code accounts for the most common errors and typos that plague the original source. The data is pulled from
+This is my first web scraping project, a simple web scraper that pulls the number of Popeyes locations per city in the United States. The code accounts for the most common errors and typos that plague the original source. The data is pulled from
 https://locations.popeyes.com/index.html
 
 ## USAGE RIGHTS
