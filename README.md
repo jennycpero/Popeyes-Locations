@@ -1,7 +1,7 @@
 ## About
 This project scrapes the data of [United States Popeyes Locations](https://locations.popeyes.com/index.html) per city and compiles it into a csv file. The code accounts for the most common errors and typos that plague the original source.
 
-###CSV Fields:
+### CSV Fields:
 * **Location:** Cities with at least one Popeyes restaurant, in "City, State" format.
 * **Count:** The number of Popeyes restaurants in a given city.
 
