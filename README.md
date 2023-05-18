@@ -7,8 +7,3 @@ This project scrapes the data of [United States Popeyes Locations](https://locat
 
 ## Usage Rights
 You are free to fork this project and make whatever changes you'd like. Please credit me if you wish to use your forked or copycat version of my project for personal, educational, or commercial purposes.
-
-## See Also
-* [View Tableau dashboard.](https://public.tableau.com/app/profile/jenny.pero/viz/PopeyesLocations/Dashboard)
-* [View the dataset on Kaggle.](https://www.kaggle.com/datasets/jenniferpero/popeyes-locations)
-* [View a quick analysis notebook on the dataset.](https://www.kaggle.com/code/jenniferpero/us-popeyes-locations-exploratory-data-analysis)
